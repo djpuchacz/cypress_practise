@@ -18,6 +18,8 @@
     "dev": "concurrently \"npm run dev -w backend\" \"npm run start -w frontend\""
   },
   "devDependencies": {
-    "concurrently": "^7.3.0"
+    "@faker-js/faker": "^8.4.1",
+    "concurrently": "^7.3.0",
+    "cypress": "^13.7.0"
   }
 }
